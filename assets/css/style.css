@@ -1,5 +1,5 @@
 /* ----------------------------------------
-    Communs   
+     style Communs  des grids
 ---------------------------------------- */
 
 body {
@@ -38,14 +38,54 @@ body {
 
 
 /* ----------------------------------------
-    Brice   
+ Brice//   titre et couleur ainsi que l'image
 ---------------------------------------- */
+.container-1{
+    background-color: rgb(6, 7, 7);
+    height: 100%; 
+}
+.container h1 {
+    padding: 0%;
+    color: #fdfdfd;
+    font-size: 40px;
+    margin-left: 300px;
+    margin-top: -180px;
+}
+.container-1 .album{
+    margin-left: 300px;
+    margin-top: 35px;
+    color: #fdfdfd;
+}
+.current_music img{
+    margin-top: 80px;
+    margin-left: 50px;
+}
 
 
 /* ----------------------------------------
-    Yanis   
+    Yanis//   menu de la page
 ---------------------------------------- */
+body,
+.container {
+    height: 100vh;
+}
 
+nav i {
+    color: white;
+}
+
+.menu {
+    height: 80%;
+   
+}
+
+nav  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
 
 /* ----------------------------------------
     Tom
